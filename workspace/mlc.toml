@@ -1,0 +1,30 @@
+mode = "workspace"
+
+repo = ["2::amethyst",
+	"3::base", 
+	"1::branding",
+	"2::caveman",
+	"2::citrine",
+	"1::crystal-keyring",
+	"3::filesystem",
+	"3::filesystem-src", 
+	"1::grub-theme",
+	"1::hardware-info", 
+	"1::iso", 
+	"2::jade", 
+	"3::lsb-release",
+	"2::malachite",
+	"1::neofetch",
+	"1::onyx",
+	"1::packages-any", 
+	"1::packages-extra", 
+	"1::packages-x86_64",
+	"2::pkg-manager-warner",
+	"1::site",
+	"1::wallpapers"
+]
+
+urls = ["ssh://git@git.tar.black/crystal/%repo%",
+	"ssh://git@git.tar.black/crystal/programs/%repo%",
+	"ssh://git@git.tar.black/crystal/pkgbuilds/%repo%"
+]

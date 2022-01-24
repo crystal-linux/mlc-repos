@@ -1,0 +1,11 @@
+mode = "repository"
+name = "crystal-extra"
+repo = ["brave-bin",
+	"minecraft-launcher",
+	"multimc5"
+]
+urls = ["https://git.tar.black/crystal/programs/%repo%"
+	"https://git.tar.black/crystal/pkgbuilds/%repo%",
+	"https://git.tar.black/crystal/%repo%",
+	"https://aur.archlinux.org/%repo%",
+]

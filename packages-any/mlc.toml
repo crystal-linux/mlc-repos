@@ -1,0 +1,21 @@
+mode = "repository"
+name = "crystal-any"
+repo = ["2::base",
+	"4::chrome-gnome-shell",
+	"1::citrine",
+	"4::ckbcomp",
+	"2::filesystem",
+	"2::lsb-release",
+	"4::mkinitcpio-openswap",
+	"4::neofetch",
+	"3::onyx",
+	"4::pfetch",
+	"4::timeshift",
+	"4::timeshift-autosnap",
+	"3::wallpapers",
+]
+urls = ["https://git.tar.black/crystal/programs/%repo%"
+	"https://git.tar.black/crystal/pkgbuilds/%repo%",
+	"https://git.tar.black/crystal/%repo%",
+	"https://aur.archlinux.org/%repo%",
+]
