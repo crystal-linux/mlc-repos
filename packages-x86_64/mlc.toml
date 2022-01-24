@@ -3,7 +3,7 @@ name = "crystal-x86_64"
 repo = ["1::amethyst",
 	"1::pkg-manager-warner",
 ]
-urls = ["https://git.tar.black/crystal/programs/%repo%"
+urls = ["https://git.tar.black/crystal/programs/%repo%",
 	"https://git.tar.black/crystal/pkgbuilds/%repo%",
 	"https://git.tar.black/crystal/%repo%",
 	"https://aur.archlinux.org/%repo%",
