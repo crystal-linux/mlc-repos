@@ -1,8 +1,8 @@
 mode = "repository"
 name = "crystal-extra"
-repo = ["brave-bin",
-	"minecraft-launcher",
-	"multimc5"
+repo = ["4::brave-bin",
+	"4::minecraft-launcher",
+	"4::multimc5"
 ]
 urls = ["https://git.tar.black/crystal/programs/%repo%"
 	"https://git.tar.black/crystal/pkgbuilds/%repo%",
