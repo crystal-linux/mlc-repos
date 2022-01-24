@@ -1,7 +1,8 @@
 mode = "repository"
 name = "crystal-x86_64"
 repo = ["1::amethyst",
-	"1::pkg-manager-warner",
+	"2::grub",
+#	"1::pkg-manager-warner",
 ]
 urls = ["https://git.tar.black/crystal/programs/%repo%",
 	"https://git.tar.black/crystal/pkgbuilds/%repo%",
