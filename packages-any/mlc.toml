@@ -15,6 +15,7 @@ repo = ["2::base",
 	"4::timeshift",
 	"4::timeshift-autosnap",
 	"3::wallpapers",
+	"2::neofetch",
 ]
 urls = ["https://git.tar.black/crystal/programs/%repo%",
 	"https://git.tar.black/crystal/pkgbuilds/%repo%",
