@@ -2,6 +2,7 @@ mode = "repository"
 name = "crystal-x86_64"
 repo = ["1::amethyst",
 	"2::grub",
+	"1::jade",
 	"1::malachite",
 ]
 urls = ["https://git.tar.black/crystal/programs/%repo%",
