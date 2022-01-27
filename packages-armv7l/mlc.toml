@@ -1,0 +1,10 @@
+mode = "repository"
+name = "crystal-armv7l"
+repo = ["1::amethyst",
+	"1::malachite",
+]
+urls = ["https://git.tar.black/crystal/programs/%repo%",
+	"https://git.tar.black/crystal/pkgbuilds/%repo%",
+	"https://git.tar.black/crystal/%repo%",
+	"https://aur.archlinux.org/%repo%",
+]
