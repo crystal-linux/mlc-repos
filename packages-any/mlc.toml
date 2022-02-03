@@ -24,6 +24,7 @@ repo = ["2::base",
 	"2::crystal-grub-theme",
 	"4::flutter-group-pacman-hook",
 	"4::flutter",
+	"2::crystal-dev",
 ]
 urls = ["https://git.tar.black/crystal/programs/%repo%",
 	"https://git.tar.black/crystal/pkgbuilds/%repo%",
