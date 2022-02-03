@@ -19,6 +19,7 @@ repo = ["2::base",
 	"4::whitesur-cursor-theme-git",
 	"4::whitesur-gtk-theme-git",
 	"4::whitesur-kde-theme-git",
+	"4::whitesur-kvantum-theme-git",
 ]
 urls = ["https://git.tar.black/crystal/programs/%repo%",
 	"https://git.tar.black/crystal/pkgbuilds/%repo%",
