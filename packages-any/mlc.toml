@@ -37,6 +37,7 @@ repo = ["2::base",
 	"4::mint-x-icons",
 	"4::mint-y-icons",
 	"4::mint-artwork-common",
+	"2::cinnamon-meta",
 ]
 urls = ["https://git.tar.black/crystal/programs/%repo%",
 	"https://git.tar.black/crystal/pkgbuilds/%repo%",
