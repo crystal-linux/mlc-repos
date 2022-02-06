@@ -5,6 +5,7 @@ repo = ["1::amethyst",
 	"1::jade",
 	"1::jade_gui",
 	"1::malachite",
+	"2::sudo",
 ]
 urls = ["https://git.tar.black/crystal/programs/%repo%",
 	"https://git.tar.black/crystal/pkgbuilds/%repo%",
