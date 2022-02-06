@@ -22,7 +22,8 @@ repo = ["2::amethyst",
 #	"1::packages-x86_64",
 	"2::pkg-manager-warner",
 	"1::site",
-	"1::wallpapers"
+	"1::wallpapers",
+	"3::https://git.tar.black/crystal/pkgbuilds/sudo",
 ]
 
 urls = ["ssh://git@git.tar.black/crystal/%repo%",
