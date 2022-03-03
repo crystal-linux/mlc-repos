@@ -1,7 +1,6 @@
 mode = "repository"
 name = "crystal-any"
 repo = ["2::base",
-	"2::base-openrc",
 	"4::chrome-gnome-shell",
 	"4::ckbcomp",
 	"3::crystal-keyring",
