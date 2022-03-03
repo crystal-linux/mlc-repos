@@ -2,8 +2,6 @@ mode = "repository"
 name = "crystal-x86_64"
 repo = ["1::amethyst",
 	"2::grub",
-	"2::openrc",
-	"2::netifrc",
 	"1::jade",
 	"1::jade_gui",
 	"1::malachite",
