@@ -1,32 +1,33 @@
 mode = "workspace"
 
-repo = ["2::amethyst",
-	"3::base", 
+repo = [
+	"1::amethyst",
 	"1::branding",
-	"2::caveman",
-	"2::citrine",
+	"1::caveman",
+	"1::citrine",
 	"1::crystal-keyring",
-	"3::filesystem",
-	"3::gnome-apps-meta",
-	"3::grub",
 	"1::grub-theme",
 	"1::hardware-info", 
 	"1::iso", 
-	"2::jade", 
-	"2::jade_gui",
-	"3::lsb-release",
-	"2::malachite",
+	"1::jade", 
+	"1::jade_gui",
 	"1::onyx",
+	"1::site",
+	"1::wallpapers",
 #	"1::packages-any", 
 #	"1::packages-extra", 
 #	"1::packages-x86_64",
+	"2::base", 
+	"2::filesystem",
+	"2::gnome-apps-meta",
+	"2::grub",
+	"2::lsb-release",
+	"2::malachite",
 	"2::pkg-manager-warner",
-	"1::site",
-	"1::wallpapers",
-	"3::sudo",
+	"2::sudo",
 ]
 
-urls = ["ssh://git@git.tar.black/crystal/%repo%",
-	"ssh://git@git.tar.black/crystal/programs/%repo%",
-	"ssh://git@git.tar.black/crystal/pkgbuilds/%repo%"
+urls = [
+	"ssh://git@github.com/crystal-linux/%repo%",
+	"ssh://git@github.com/crystal-linux/pkgbuilds.%repo%"
 ]
