@@ -4,11 +4,11 @@ repo = [
 	"1::amethyst",
 	"1::jade",
 	"1::jade_gui",
-	"1::lapis"
+	"1::lapis",
 	"1::malachite",
 	"2::bsudo",
 	"2::grub",
-	"2::sudo",
+	"2::sudo"
 ]
 urls = [
 	"https://github.com/crystal-linux/%repo%",

@@ -24,7 +24,7 @@ repo = [
 	"2::lsb-release",
 	"2::malachite",
 	"2::pkg-manager-warner",
-	"2::sudo",
+	"2::sudo"
 ]
 
 urls = [
