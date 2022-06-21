@@ -7,7 +7,6 @@ repo = [
 	"1::citrine",
 	"1::crystal-keyring",
 	"1::grub-theme",
-	"1::hardware-info", 
 	"1::iso", 
 	"1::jade", 
 	"1::jade_gui",
