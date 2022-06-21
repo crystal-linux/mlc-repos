@@ -2,8 +2,19 @@ mode = "repository"
 name = "crystal-extra"
 repo = [
 	"1::brave-bin",
-	"1::minecraft-launcher",
-	"1::multimc5"
+	"1::mullvad-vpn",
+	"1::mullvad-vpn-beta",
+	"1::mullvad-vpn-cli",
+	"1::microsoft-edge-stable-bin",
+	"1::microsoft-edge-beta-bin",
+	"1::microsoft-edge-dev-bin",
+	"1::google-chrome",
+	"1::google-chrome-beta",
+	"1::google-chrome-dev",
+	"1::ungoogled-chromium",
+	"1::jetbrains-toolbox",
+	"1::visual-studio-code-bin",
+	"1::polymc"
 ]
 urls = [
 	"https://aur.archlinux.org/%repo%"
