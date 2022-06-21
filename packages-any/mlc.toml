@@ -37,6 +37,6 @@ repo = [
 ]
 urls = [
 	"https://github.com/crystal-linux/%repo%",
-	"https://github.com/crystal-linux/pkgbuilds.%repo%",
+	"https://github.com/crystal-linux/pkgbuild.%repo%",
 	"https://aur.archlinux.org/%repo%"
 ]
