@@ -1,9 +1,9 @@
 mode = "repository"
 name = "crystal-extra"
 repo = [
-	"4::brave-bin",
-	"4::minecraft-launcher",
-	"4::multimc5"
+	"1::brave-bin",
+	"1::minecraft-launcher",
+	"1::multimc5"
 ]
 urls = [
 	"https://aur.archlinux.org/%repo%"
