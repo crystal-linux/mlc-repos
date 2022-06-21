@@ -29,5 +29,5 @@ repo = [
 
 urls = [
 	"ssh://git@github.com/crystal-linux/%repo%",
-	"ssh://git@github.com/crystal-linux/pkgbuilds.%repo%"
+	"ssh://git@github.com/crystal-linux/pkgbuild.%repo%"
 ]
