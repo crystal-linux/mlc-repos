@@ -1,9 +1,0 @@
-mode = "repository"
-name = "crystal-armv7l"
-repo = [
-	"1::amethyst",
-	"1::malachite",
-]
-urls = [
-	"https://github.com/crystal-linux/%repo%"
-]
