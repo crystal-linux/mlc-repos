@@ -24,6 +24,7 @@ repos = [
 	"crs:iso", 
 	"crs:jade", 
 	"crs:jade_gui",
+	"crs:malachite",
 	"crs:onyx",
 	"crs:site",
 	"crs:wallpapers",
@@ -32,8 +33,6 @@ repos = [
 	"pkg:gnome-apps-meta",
 	"pkg:grub",
 	"pkg:lsb-release",
-	"pkg:malachite",
-	"pkg:pkg-manager-warner",
 	"pkg:sudo"
 ]
 
