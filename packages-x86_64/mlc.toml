@@ -3,7 +3,7 @@ name = "crystal-x86_64"
 repo = [
 	"1::amethyst",
 	"1::jade",
-	"1::jade_gui",
+	"1::jade-gui",
 	"1::lapis",
 	"1::malachite",
 	"2::bsudo",
