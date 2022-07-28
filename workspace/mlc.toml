@@ -9,7 +9,7 @@ repo = [
 	"1::grub-theme",
 	"1::iso", 
 	"1::jade", 
-	"1::jade_gui",
+	"1::jade-gui",
 	"1::onyx",
 	"1::site",
 	"1::wallpapers",
