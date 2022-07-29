@@ -8,16 +8,13 @@ build_on_update = true
 
 [mode.repository.signing]
 enabled = true
-key = ""
 on_gen = true
-
-[mode.workspace]
 
 [repositories]
 repos = [
 	"crs:amethyst",
 	"crs:jade",
-	"crs:jade_gui",
+	"crs:jade-gui",
 	"crs:lapis",
 	"crs:malachite",
 	"pkg:bsudo",

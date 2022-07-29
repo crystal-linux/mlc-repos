@@ -8,10 +8,7 @@ build_on_update = true
 
 [mode.repository.signing]
 enabled = true
-key = ""
 on_gen = true
-
-[mode.workspace]
 
 [repositories]
 repos = [
@@ -29,7 +26,6 @@ repos = [
 	"pkg:neofetch",
 	"pkg:pfetch",
 	"pkg:pkg-warner",
-#	"pkg:whitesur-grub-theme",
 	"aur:chrome-gnome-shell",
 	"aur:ckbcomp",
 	"aur:flutter",
