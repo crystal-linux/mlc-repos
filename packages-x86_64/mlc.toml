@@ -15,9 +15,7 @@ repos = [
 	"crs:amethyst",
 	"crs:jade",
 	"crs:jade-gui",
-	"crs:lapis",
 	"crs:malachite",
-	"pkg:bsudo",
 	"pkg:grub",
 	"pkg:sudo"
 ]
