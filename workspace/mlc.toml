@@ -1,32 +1,34 @@
+[base]
 mode = "workspace"
+smart_pull = true
 
-repo = [
-	"1::amethyst",
-	"1::branding",
-	"1::caveman",
-	"1::citrine",
-	"1::crystal-keyring",
-	"1::grub-theme",
-	"1::iso", 
-	"1::jade", 
-	"1::jade-gui",
-	"1::onyx",
-	"1::site",
-	"1::wallpapers",
-#	"1::packages-any", 
-#	"1::packages-extra", 
-#	"1::packages-x86_64",
-	"2::base", 
-	"2::filesystem",
-	"2::gnome-apps-meta",
-	"2::grub",
-	"2::lsb-release",
-	"2::malachite",
-	"2::pkg-manager-warner",
-	"2::sudo"
+[mode.workspace]
+git_info = true
+colorblind = false
+
+[repositories]
+repos = [
+	"crs:amethyst",
+	"crs:branding",
+	"crs:caveman",
+	"crs:citrine",
+	"crs:crystal-keyring",
+	"crs:grub-theme",
+	"crs:iso", 
+	"crs:jade", 
+	"crs:jade-gui",
+	"crs:malachite",
+	"crs:onyx",
+	"crs:site",
+	"crs:wallpapers",
+	"pkg:base", 
+	"pkg:filesystem",
+	"pkg:gnome-apps-meta",
+	"pkg:grub",
+	"pkg:lsb-release",
+	"pkg:sudo"
 ]
 
-urls = [
-	"ssh://git@github.com/crystal-linux/%repo%",
-	"ssh://git@github.com/crystal-linux/pkgbuild.%repo%"
-]
+[repositories.urls]
+crs = "ssh://git@github.com/crystal-linux/{}"
+pkg = "ssh://git@github.com/crystal-linux/pkgbuild.{}"

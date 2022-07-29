@@ -1,16 +1,27 @@
+[base]
 mode = "repository"
+smart_pull = true
+
+[mode.repository]
 name = "crystal-x86_64"
-repo = [
-	"1::amethyst",
-	"1::jade",
-	"1::jade-gui",
-	"1::lapis",
-	"1::malachite",
-	"2::bsudo",
-	"2::grub",
-	"2::sudo"
+build_on_update = true
+
+[mode.repository.signing]
+enabled = true
+on_gen = true
+
+[repositories]
+repos = [
+	"crs:amethyst",
+	"crs:jade",
+	"crs:jade-gui",
+	"crs:lapis",
+	"crs:malachite",
+	"pkg:bsudo",
+	"pkg:grub",
+	"pkg:sudo"
 ]
-urls = [
-	"https://github.com/crystal-linux/%repo%",
-	"https://github.com/crystal-linux/pkgbuild.%repo%"
-]
+
+[repositories.urls]
+crs = "https://github.com/crystal-linux/{}"
+pkg = "https://github.com/crystal-linux/pkgbuild.{}"

@@ -1,21 +1,32 @@
+[base]
 mode = "repository"
+smart_pull = true
+
+[mode.repository]
 name = "crystal-extra"
-repo = [
-	"1::brave-bin",
-	"1::mullvad-vpn",
-	"1::mullvad-vpn-beta",
-	"1::mullvad-vpn-cli",
-	"1::microsoft-edge-stable-bin",
-	"1::microsoft-edge-beta-bin",
-	"1::microsoft-edge-dev-bin",
-	"1::google-chrome",
-	"1::google-chrome-beta",
-	"1::google-chrome-dev",
-	"1::ungoogled-chromium",
-	"1::jetbrains-toolbox",
-	"1::visual-studio-code-bin",
-	"1::polymc"
+build_on_update = true
+
+[mode.repository.signing]
+enabled = true
+on_gen = true
+
+[repositories]
+repos = [
+	"aur:brave-bin",
+	"aur:mullvad-vpn",
+	"aur:mullvad-vpn-beta",
+	"aur:mullvad-vpn-cli",
+	"aur:microsoft-edge-stable-bin",
+	"aur:microsoft-edge-beta-bin",
+	"aur:microsoft-edge-dev-bin",
+	"aur:google-chrome",
+	"aur:google-chrome-beta",
+	"aur:google-chrome-dev",
+	"aur:ungoogled-chromium",
+	"aur:jetbrains-toolbox",
+	"aur:visual-studio-code-bin",
+	"aur:polymc"
 ]
-urls = [
-	"https://aur.archlinux.org/%repo%"
-]
+
+[repositories.urls]
+aur = "https://aur.archlinux.org/{}"
