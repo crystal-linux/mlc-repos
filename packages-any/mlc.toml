@@ -12,7 +12,7 @@ on_gen = true
 
 [repositories]
 repos = [
-	"crs:citrine",
+      # "crs:citrine",
 	"crs:crystal-keyring",
 	"crs:onyx",
 	"crs:wallpapers",
