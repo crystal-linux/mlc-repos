@@ -11,7 +11,6 @@ repos = [
 	"crs:amethyst",
 	"crs:branding",
 	"crs:caveman",
-	"crs:citrine",
 	"crs:crystal-keyring",
 	"crs:grub-theme",
 	"crs:iso", 
@@ -23,7 +22,6 @@ repos = [
 	"crs:wallpapers",
 	"pkg:base", 
 	"pkg:filesystem",
-	"pkg:gnome-apps-meta",
 	"pkg:grub",
 	"pkg:lsb-release",
 	"pkg:sudo"
