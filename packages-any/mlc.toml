@@ -12,7 +12,6 @@ on_gen = true
 
 [repositories]
 repos = [
-      # "crs:citrine",
 	"crs:crystal-keyring",
 	"crs:onyx",
 	"crs:wallpapers",
@@ -21,30 +20,12 @@ repos = [
 	"pkg:crystal-dev",
 	"pkg:crystal-grub-theme",
 	"pkg:filesystem",
-	"pkg:gnome-apps-meta",
 	"pkg:lsb-release",
 	"pkg:neofetch",
 	"pkg:pfetch",
 	"pkg:pkg-warner",
-	"aur:chrome-gnome-shell",
-	"aur:ckbcomp",
-	"aur:flutter",
-	"aur:flutter-group-pacman-hook",
-	"aur:iso-flag-png",
-	"aur:mint-artwork-common",
-	"aur:mint-backgrounds-uma",
-	"aur:mint-themes",
-	"aur:mint-x-icons",
-	"aur:mint-y-icons",
-	"aur:mintlocale",
-	"aur:mkinitcpio-openswap",
-	"aur:pix",
-	"aur:python-xdg",
 	"aur:timeshift",
 	"aur:timeshift-autosnap",
-	"aur:xplayer",
-	"aur:xplayer-plparser",
-	"aur:xviewer"
 ]
 
 [repositories.urls]
