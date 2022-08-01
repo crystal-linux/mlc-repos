@@ -16,7 +16,6 @@ repos = [
 	"crs:onyx",
 	"crs:wallpapers",
 	"pkg:base",
-	"pkg:cinnamon-meta",
 	"pkg:crystal-dev",
 	"pkg:crystal-grub-theme",
 	"pkg:filesystem",
