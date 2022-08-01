@@ -17,7 +17,6 @@ repos = [
 	"crs:jade-gui",
 	"crs:malachite",
 	"pkg:grub",
-	"pkg:sudo"
 ]
 
 [repositories.urls]
