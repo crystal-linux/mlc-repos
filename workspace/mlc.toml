@@ -25,7 +25,6 @@ repos = [
 	"pkg:filesystem",
 	"pkg:grub",
 	"pkg:lsb-release",
-	"pkg:sudo"
 ]
 
 [repositories.urls]
