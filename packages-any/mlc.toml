@@ -23,9 +23,10 @@ repos = [
 	"pkg:neofetch",
 	"pkg:pfetch",
 	"pkg:pkg-warner",
-	"pkg:timeshift",
-	"pkg:timeshift-autosnap",
+	"aur:timeshift",
+	"aur:timeshift-autosnap",
 ]
 
 [repositories.urls]
 pkg = "https://github.com/crystal-linux/pkgbuild.{}"
+aur = "https://aur.archlinux.org/{}"
