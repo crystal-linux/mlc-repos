@@ -13,13 +13,12 @@ on_gen = true
 [repositories]
 repos = [
 	"pkg:amethyst",
-	"crs:jade",
-	"crs:jade-gui",
-	"crs:malachite",
+	"pkg:jade",
+	"pkg:jade-gui",
+	"pkg:malachite",
 	"pkg:grub",
 	"pkg:zramd",
 ]
 
 [repositories.urls]
-crs = "https://github.com/crystal-linux/{}"
 pkg = "https://github.com/crystal-linux/pkgbuild.{}"
