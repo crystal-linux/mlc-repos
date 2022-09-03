@@ -12,7 +12,7 @@ on_gen = true
 
 [repositories]
 repos = [
-	"crs:amethyst",
+	"pkg:amethyst",
 	"crs:jade",
 	"crs:jade-gui",
 	"crs:malachite",
