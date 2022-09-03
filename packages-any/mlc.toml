@@ -12,10 +12,10 @@ on_gen = true
 
 [repositories]
 repos = [
-	"crs:crystal-keyring",
-	"crs:onyx",
-	"crs:wallpapers",
-	"crs:grub-theme",
+	"pkg:crystal-keyring",
+	"pkg:onyx",
+	"pkg:wallpapers",
+	"pkg:grub-theme",
 	"pkg:base",
 	"pkg:crystal-dev",
 	"pkg:filesystem",
@@ -23,11 +23,9 @@ repos = [
 	"pkg:neofetch",
 	"pkg:pfetch",
 	"pkg:pkg-warner",
-	"aur:timeshift",
-	"aur:timeshift-autosnap",
+	"pkg:timeshift",
+	"pkg:timeshift-autosnap",
 ]
 
 [repositories.urls]
-crs = "https://github.com/crystal-linux/{}"
 pkg = "https://github.com/crystal-linux/pkgbuild.{}"
-aur = "https://aur.archlinux.org/{}"
