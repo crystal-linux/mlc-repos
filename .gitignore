@@ -1,9 +1,5 @@
-packages-x86_64/*
-packages-any/*
-packages-extra/*
-workspace/*
+x86_64/*
+any/*
 
-!packages-x86_64/mlc.toml
-!packages-any/mlc.toml
-!packages-extra/mlc.toml
-!workspace/mlc.toml
+!x86_64/mlc.toml
+!any/mlc.toml
