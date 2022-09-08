@@ -23,8 +23,14 @@ repos = [
 	"pkg:neofetch",
 	"pkg:pfetch",
 	"pkg:pkg-warner",
+	"pkg:onyx",
+	"pkg:pkgbuild.gnome-shell-extension-desktop-icons-neo",
+	"pkg:pkgbuild.gnome-shell-extension-caffeine",
 	"aur:timeshift",
 	"aur:timeshift-autosnap",
+	"aur:gnome-shell-extension-dash-to-panel",
+	"aur:gnome-shell-extension-arch-update",
+	"aur:gnome-shell-extension-gsconnect",
 ]
 
 [repositories.urls]
