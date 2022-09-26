@@ -1,0 +1,27 @@
+[base]
+mode = "repository"
+smart_pull = true
+
+[mode.repository]
+name = "crystal-aarch64"
+build_on_update = true
+
+[mode.repository.signing]
+enabled = true
+on_gen = true
+
+[repositories]
+repos = [
+	"pkg:ame",
+	"pkg:jade",
+	"pkg:jade-gui",
+	"pkg:malachite",
+	"pkg:pkg-warner",
+	"pkg:grub",
+	"pkg:zramd",
+	"aur:timeshift",
+]
+
+[repositories.urls]
+pkg = "https://github.com/crystal-linux/pkgbuild.{}"
+aur = "https://aur.archlinux.org/{}"
