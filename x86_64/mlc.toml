@@ -12,16 +12,16 @@ on_gen = true
 
 [repositories]
 repos = [
+	"aur:timeshift",
 	"pkg:ame",
+	"pkg:grub",
 	"pkg:jade",
 	"pkg:jade-gui",
 	"pkg:malachite",
 	"pkg:pkg-warner",
-	"pkg:grub",
 	"pkg:zramd",
-	"aur:timeshift",
 ]
 
 [repositories.urls]
-pkg = "https://github.com/crystal-linux/pkgbuild.{}"
 aur = "https://aur.archlinux.org/{}"
+pkg = "https://github.com/crystal-linux/pkgbuild.{}"

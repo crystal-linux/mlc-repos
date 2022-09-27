@@ -12,25 +12,27 @@ on_gen = true
 
 [repositories]
 repos = [
-	"pkg:crystal-keyring",
-	"pkg:onyx",
-	"pkg:wallpapers",
-	"pkg:grub-theme",
+	"age:arch-update",
+	"age:dash-to-panel",
+	"age:gsconnect",
+	"aur:timeshift-autosnap",
+	"gse:caffeine",
+	"gse:desktop-icons-neo",
 	"pkg:base",
 	"pkg:crystal-dev",
+	"pkg:crystal-keyring",
 	"pkg:filesystem",
+	"pkg:grub-theme",
 	"pkg:lsb-release",
 	"pkg:neofetch",
-	"pkg:pfetch",
 	"pkg:onyx",
-	"pkg:gnome-shell-extension-desktop-icons-neo",
-	"pkg:gnome-shell-extension-caffeine",
-	"aur:timeshift-autosnap",
-	"aur:gnome-shell-extension-dash-to-panel",
-	"aur:gnome-shell-extension-arch-update",
-	"aur:gnome-shell-extension-gsconnect",
+	"pkg:onyx",
+	"pkg:pfetch",
+	"pkg:wallpapers",
 ]
 
 [repositories.urls]
-pkg = "https://github.com/crystal-linux/pkgbuild.{}"
+age = "https://aur.archlinux.org/gnome-shell-extension-{}"
 aur = "https://aur.archlinux.org/{}"
+gse = "https://github.com/crystal-linux/pkgbuild.gnome-shell-extension-{}"
+pkg = "https://github.com/crystal-linux/pkgbuild.{}"
