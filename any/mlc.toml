@@ -36,4 +36,4 @@ repos = [
 age = "https://aur.archlinux.org/gnome-shell-extension-{}"
 aur = "https://aur.archlinux.org/{}"
 gse = "https://github.com/crystal-linux/pkgbuild.gnome-shell-extension-{}"
-pkg = "https://github.com/crystal-linux/pkgbuild.{}"
+pkg = "https://github.com/crystal-linux-packages/{}"
