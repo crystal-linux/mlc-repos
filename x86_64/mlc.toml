@@ -14,12 +14,11 @@ on_gen = true
 repos = [
 	"aur:timeshift",
 	"pkg:ame",
-	"pkg:grub",
 	"pkg:jade",
 	"pkg:jade-gui",
 	"pkg:malachite",
 	"pkg:pkg-warner",
-	"pkg:zramd",
+	"aur:zramd",
 ]
 
 [repositories.urls]
