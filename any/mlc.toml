@@ -25,6 +25,7 @@ repos = [
 	"pkg:neofetch",
 	"pkg:onyx",
 	"pkg:wallpapers",
+	"pkg:jade-tui",
 	"pkg:crystal-core",
 	"pkg:crystal-branding",
 ]
