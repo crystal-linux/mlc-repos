@@ -17,7 +17,6 @@ repos = [
 	"age:gsconnect",
 	"aur:timeshift-autosnap",
 	"age:caffeine",
-	"age:desktop-icons-neo",
 	"pkg:crystal-dev",
 	"pkg:crystal-keyring",
 	"pkg:crystal-mirrorlist",
