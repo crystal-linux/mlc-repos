@@ -12,7 +12,7 @@ on_gen = true
 
 [repositories]
 repos = [
-	"age:arch-update",
+	"gse:crystal-update",
 	"age:dash-to-panel",
 	"age:gsconnect",
 	"aur:timeshift-autosnap",
